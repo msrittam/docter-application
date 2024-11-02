@@ -1,0 +1,692 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #17171b;
+}
+.FirstDoctorApplication{
+    display: flex;
+    min-width: 96%;
+    max-width: 96%;
+    overflow-x: hidden;
+    justify-content: center;
+    align-item: center;
+    padding: 2%;
+}
+.DownloadAppContainer{
+    min-width: 30%;
+    max-width: 30%;
+    overflow-x: hidden;
+    padding-right: 2%;
+}
+.MobileMockupContainer{
+    min-width: 68%;
+    max-width: 68%;
+    overflow-x: hidden;
+    background-color: #9494e5;
+    border-radius: 40px;
+    background-image: url('SecondIllustration.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.HealScheduleWrapper{
+    min-width: 93%;
+    max-width: 93%;
+    overflow-x: hidden;
+    display: flex;
+    padding: 2%;
+    padding-left: 5%;
+    background-color: #27272c;
+    justify-content: space-between;
+    border-radius: 60px;
+    align-items: center;
+}
+.DownloadAppContainer hr{
+    border: solid #3a3a3f 1px;
+    background-color: #3a3a3f;
+    border-radius: 100px;
+}
+.HealScheduleWrapper p{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    white-space: nowrap;
+    min-width: fit-content;
+    max-width: fit-content;
+    font-size: 27px;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+.WebsiteCompanyLogo{
+    min-width: 75px;
+    max-width: 75px;
+    overflow-x: hidden;
+}
+.WebsiteCompanyLogo img{
+    min-width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.BestDoctorsWrapper{
+    min-width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 7%;
+    padding-bottom: 2%;
+}
+.BestDoctorsWrapper p{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    white-space: nowrap;
+    min-width: fit-content;
+    max-width: fit-content;
+    overflow-x: hidden;
+    font-size: 21px;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+.BestUsersWrapper{
+    min-width: fit-content;
+    max-width: fit-content;
+    overflow-x: hidden;
+    display: flex;
+}
+.FirstUserImage{
+    min-width: 75px;
+    max-width: 75px;
+    overflow-x: hidden;
+    margin-right: -12px;
+    border-radius: 100px;
+    border: solid #17171b 4px;
+}
+.FirstUserImage img{
+    min-width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.SecondUserImage{
+    min-width: 75px;
+    max-width: 75px;
+    overflow-x: hidden;
+    border-radius: 100px;
+    border: solid #17171b 4px;
+}
+.SecondUserImage img{
+    min-width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.FirstParagraphWrapper{
+    min-width: 100%;
+    max-width: 100%;
+    display: flex;
+    overflow-x: hidden;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 7%;
+}
+.ForFreeParagraph{
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    border-radius: 20px 100px 100px 20px;
+    background-color: #9494e5;
+    font-optical-sizing: auto;
+    min-width: fit-content;
+    max-width: fit-content;
+    white-space: nowrap;
+    font-style: normal;
+    overflow-x: hidden;
+    margin-right: 4%;
+    font-size: 21px;
+    padding: 4% 3%;
+    color: white;
+}
+.DownloadParagraph{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    white-space: nowrap;
+    min-width: fit-content;
+    max-width: fit-content;
+    overflow-x: hidden;
+    font-size: 60px;
+    font-weight: 500;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+.SecondParagraphWrapper{
+    min-width: 100%;
+    max-width: 100%;
+    display: flex;
+    overflow-x: hidden;
+    justify-content: flex-start;
+    align-items: center;
+}
+.DoctorLoveImage{
+    min-width: 75px;
+    max-width: 75px;
+    overflow-x: hidden;
+    margin: 0 4%;
+}
+.DoctorLoveImage img{
+    min-width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.DashboardDescription{
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    white-space: wrap;
+    min-width: fit-content;
+    max-width: fit-content;
+    overflow-x: hidden;
+    font-size: 21px;
+    color: white;
+    padding-top: 7%;
+}
+.DownloadPageContainer{
+    min-width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 7%;
+    padding-bottom: 10%;
+}
+.DownloadPageWrapper{
+    min-width: 42%;
+    max-width: 42%;
+    background-color: #27272c;
+    justify-content: center;
+    border-radius: 60px;
+    align-items: center;
+    overflow-x: hidden;
+    display: flex;
+    padding: 3%;
+}
+.DownloadPageWrapper p{
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    white-space: wrap;
+    min-width: fit-content;
+    max-width: fit-content;
+    overflow-x: hidden;
+    font-size: 21px;
+    color: white;
+}
+.OurBenefitsContainer{
+    min-width: 80%;
+    max-width: 80%;
+    background-color: #27272c;
+    border-radius: 40px;
+    padding: 3% 10%;
+}
+.OurBenefitsHeading{
+    min-width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.OurBenefitsHeading p{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    white-space: nowrap;
+    min-width: fit-content;
+    max-width: fit-content;
+    overflow-x: hidden;
+    font-size: 60px;
+    font-weight: 500;
+    color: white;
+    padding: 0 2%;
+    margin: 0;
+}
+.OurBenefitsHeading hr{
+    min-width: 50%;
+    max-width: 50%;
+    overflow-x: hidden;
+    border: solid #3a3a3f 1px;
+    background-color: #3a3a3f;
+    border-radius: 100px;
+}
+.CalenderImageContainer{
+    min-width: 94%;
+    max-width: 94%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 4% 3%;
+    padding-bottom: 0%;
+}
+.CalenderImageWrapper{
+    min-width: 40%;
+    max-width: 40%;
+    overflow-x: hidden;
+    display: flex;
+    align-items: flex-start;
+}
+.CalenderImage{
+    min-width: 75px;
+    max-width: 25%;
+    overflow-x: hidden;
+}
+.CalenderImage img{
+    min-width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.BenefitsAvailingDivision{
+    min-width: 70%;
+    max-width: 70%;
+    overflow-x: hidden;
+    padding-left: 5%;
+}
+.BenefitsAvailingDivision p{
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    white-space: wrap;
+    min-width: fit-width;
+    max-width: fit-width;
+    overflow-x: hidden;
+    font-size: 27px;
+    color: white;
+    padding-bottom: 3%;
+}
+.SubHeadingParagraphType{
+    font-size: 21px !important;
+    color: #525256 !important;
+    padding-bottom: 0% !important;
+}
+.ContactUsButton{
+    min-width: 94%;
+    max-width: 94%;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3%;
+}
+.ContactUsButton p{
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    white-space: wrap;
+    min-width: fit-width;
+    max-width: fit-width;
+    overflow-x: hidden;
+    font-size: 21px;
+    color: black;
+    background-color: white;
+    border-radius: 100px;
+    padding 3% 10%;
+}
+.SecondDescriptionContainer{
+    min-width: 80%;
+    max-width: 80%;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: space-between;
+    padding: 6% 10%;
+}
+.SecondDescriptionImage{
+    min-width: 45%;
+    max-width: 45%;
+    overflow-x: hidden;
+    background-color: #9494e5;
+    border-radius: 40px;
+    background-image: url('SecondIllustration.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.SecondDescriptionWrapper{
+    min-width: 45%;
+    max-width: 45%;
+    overflow-x: hidden;
+}
+.SecondDescriptionWrapper p{
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    white-space: wrap;
+    min-width: fit-width;
+    max-width: fit-width;
+    overflow-x: hidden;
+    font-size: 21px;
+    color: white;
+    padding-bottom: 3%;
+}
+.AboutAppHeading{
+    color: #525256 !important;
+}
+.StayOrganisedHeading{
+    font-size: 27px !important;
+}
+.AboutAppDescription{
+    color: #868686 !important;
+    padding-bottom: 5% !important;
+}
+.TryDownloadButton{
+    min-width: fit-content;
+    max-width: fit-content;
+    overflow-x: hidden;
+    background-color: white;
+    color: black !important;
+    padding: 3% 5% !important;
+    border-radius: 20px;
+    margin-bottom: 10% !important;
+}
+@media only screen and (max-width: 1566px) {}
+@media only screen and (max-width: 1316px) {
+.DownloadAppContainer{
+    min-width: 33%;
+    max-width: 33%;
+    overflow-x: hidden;
+    padding-right: 2%;
+}
+.MobileMockupContainer{
+    min-width: 65%;
+    max-width: 65%;
+    overflow-x: hidden;
+    background-color: #9494e5;
+    border-radius: 40px;
+    background-image: url('SecondIllustration.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.DownloadPageContainer{
+    min-width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 7%;
+    padding-bottom: 0%;
+}
+.SecondDescriptionImage{
+    min-width: 55%;
+    max-width: 55%;
+    overflow-x: hidden;
+    background-color: #9494e5;
+    border-radius: 40px;
+    background-image: url('SecondIllustration.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.SecondDescriptionWrapper{
+    min-width: 40%;
+    max-width: 40%;
+    overflow-x: hidden;
+}
+}
+@media only screen and (max-width: 1200px) {
+.DownloadAppContainer{
+    min-width: 38%;
+    max-width: 38%;
+    overflow-x: hidden;
+    padding-right: 2%;
+}
+.MobileMockupContainer{
+    min-width: 60%;
+    max-width: 60%;
+    overflow-x: hidden;
+    background-color: #9494e5;
+    border-radius: 40px;
+    background-image: url('SecondIllustration.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.OurBenefitsHeading p{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    white-space: nowrap;
+    min-width: fit-content;
+    max-width: fit-content;
+    overflow-x: hidden;
+    font-size: 50px;
+    font-weight: 500;
+    color: white;
+    padding: 0 2%;
+    margin: 0;
+}
+.DownloadParagraph{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    white-space: nowrap;
+    min-width: fit-content;
+    max-width: fit-content;
+    overflow-x: hidden;
+    font-size: 50px;
+    font-weight: 500;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+.TryDownloadButton{
+    min-width: fit-content;
+    max-width: fit-content;
+    overflow-x: hidden;
+    background-color: white;
+    color: black !important;
+    padding: 3% 5% !important;
+    border-radius: 20px;
+    margin-bottom: 0% !important;
+}
+}
+@media only screen and (max-width: 1000px) {
+.DownloadAppContainer{
+    min-width: 43%;
+    max-width: 43%;
+    overflow-x: hidden;
+    padding-right: 2%;
+}
+.MobileMockupContainer{
+    min-width: 55%;
+    max-width: 55%;
+    overflow-x: hidden;
+    background-color: #9494e5;
+    border-radius: 40px;
+    background-image: url('SecondIllustration.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+}
+@media only screen and (max-width: 900px) {
+.DownloadAppContainer{
+    min-width: 48%;
+    max-width: 48%;
+    overflow-x: hidden;
+    padding-right: 2%;
+}
+.MobileMockupContainer{
+    min-width: 50%;
+    max-width: 50%;
+    overflow-x: hidden;
+    background-color: #9494e5;
+    border-radius: 40px;
+    background-image: url('SecondIllustration.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+}
+@media only screen and (max-width: 800px) {
+.DownloadAppContainer{
+    min-width: 53%;
+    max-width: 53%;
+    overflow-x: hidden;
+    padding-right: 2%;
+}
+.MobileMockupContainer{
+    min-width: 45%;
+    max-width: 45%;
+    overflow-x: hidden;
+    background-color: #9494e5;
+    border-radius: 40px;
+    background-image: url('SecondIllustration.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.OurBenefitsContainer{
+    min-width: 90%;
+    max-width: 90%;
+    background-color: #27272c;
+    border-radius: 40px;
+    padding: 3% 5%;
+}
+}
+@media only screen and (max-width: 600px) {
+.FirstDoctorApplication{
+    display: flex;
+    min-width: 90%;
+    max-width: 90%;
+    overflow-x: hidden;
+    flex-direction: column;
+    justify-content: center;
+    align-item: center;
+    padding: 5%;
+}
+.DownloadAppContainer{
+    min-width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    padding-right: 0%;
+}
+.MobileMockupContainer{
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 400px;
+    max-height: 400px;
+    margin-top: 6%;
+    overflow-x: hidden;
+    background-color: #9494e5;
+    border-radius: 40px;
+    background-image: url('SecondIllustration.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.OurBenefitsContainer{
+    min-width: 94%;
+    max-width: 94%;
+    background-color: #27272c;
+    border-radius: 40px;
+    padding: 3% 3%;
+}
+.DownloadAppContainer hr{
+    display: none;
+    border: solid #3a3a3f 1px;
+    background-color: #3a3a3f;
+    border-radius: 100px;
+}
+.OurBenefitsHeading hr{
+    display: none;
+    min-width: 50%;
+    max-width: 50%;
+    overflow-x: hidden;
+    border: solid #3a3a3f 1px;
+    background-color: #3a3a3f;
+    border-radius: 100px;
+}
+.WebsiteCompanyLogo{
+    min-width: 65px;
+    max-width: 65px;
+    overflow-x: hidden;
+}
+.FirstUserImage{
+    min-width: 65px;
+    max-width: 65px;
+    overflow-x: hidden;
+    margin-right: -12px;
+    border-radius: 100px;
+    border: solid #17171b 4px;
+}
+.SecondUserImage{
+    min-width: 65px;
+    max-width: 65px;
+    overflow-x: hidden;
+    border-radius: 100px;
+    border: solid #17171b 4px;
+}
+.FirstParagraphWrapper{
+    display: none;
+}
+.SecondParagraphWrapper{
+    display: none;
+}
+.SecondDescriptionImage{
+    display: none;
+}
+.SecondDescriptionWrapper{
+    min-width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.CalenderImageContainer{
+    min-width: 94%;
+    max-width: 94%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 4% 3%;
+    padding-bottom: 0%;
+}
+.CalenderImageWrapper{
+    min-width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    display: flex;
+    align-items: flex-start;
+}
+.SubHeadingParagraphType{
+    font-size: 21px !important;
+    color: #525256 !important;
+    padding-bottom: 10% !important;
+}
+.OurBenefitsHeading p{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    white-space: nowrap;
+    min-width: fit-content;
+    max-width: fit-content;
+    overflow-x: hidden;
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    padding: 0 2%;
+    margin: 0;
+}
+}
